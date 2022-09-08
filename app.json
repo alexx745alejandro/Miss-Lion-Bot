@@ -1,4 +1,3 @@
-
 {
   "name": "Miss Rose",
   "logo": "https://telegra.ph/file/48522f7be29b993a19e60.jpg",
@@ -81,7 +80,7 @@
     {
       "plan": "heroku-postgresql", 
       "options": {
-         "version": "10"
+         "version": "14"
       } 
     }
   ]
