@@ -10,7 +10,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
+    API_KEY = "5423491152:AAG9eNpHbV3bLia7RU9WCgoImpLsUMsmGhs"
     OWNER_ID = "5033264822" # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "pikachuBotSahip"
 
