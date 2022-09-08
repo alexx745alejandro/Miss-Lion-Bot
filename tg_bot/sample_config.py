@@ -16,11 +16,11 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
+    MESSAGE_DUMP = -1007777777777  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
-    WEBHOOK = False
-    URL = None
+    WEBHOOK = ANYTHING
+    URL = https://github.com/pikachuBotDeveloper/Miss-Pikachu-Bot/
 
     # OPTIONAL
     SUDO_USERS = [5033264822]  # List of id's (not usernames) for users which have sudo access to the bot.
@@ -28,8 +28,8 @@ class Config(object):
     WHITELIST_USERS = [5033264822]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = https://www.buymeacoffee.com/pikachuu  # EG, paypal
     CERT_PATH = None
-    PORT = 5000
-    DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
+    PORT = 8443
+    DEL_CMDS = True  # Whether or not you should delete "blue text must click" commands
     STRICT_GBAN = True
     WORKERS = 8  # Number of subthreads to use. This is the recommended amount - see for yourself what works best!
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
